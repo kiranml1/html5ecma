@@ -12,7 +12,7 @@
 		// minified (especially when both are regularly referenced in your plugin).
 
 		// Create the defaults once
-		var pluginName = "defaultPluginName",
+		var pluginName = "webaudio",
 				defaults = {
 				propertyName: "value"
 		};
@@ -38,7 +38,7 @@
 						// and this.options
 						// you can add more functions like the one below and
 						// call them like so: this.yourOtherFunction(this.element, this.options).
-						console.log("xD");
+						console.log("Plugin Init");
 				},
 				yourOtherFunction: function () {
 						// some logic

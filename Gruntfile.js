@@ -71,6 +71,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-coffee");
 	grunt.loadNpmTasks('grunt-bower-install');
 	grunt.loadNpmTasks('grunt-contrib-requirejs');
+	grunt.loadNpmTasks('grunt-contrib-qunit');
 
 	grunt.registerTask("default", ["jshint", "concat", "uglify"]);
 	grunt.registerTask("travis", ["jshint"]);
