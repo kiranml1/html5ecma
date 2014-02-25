@@ -1,5 +1,5 @@
 // XHR Module
-define(['jquery','webaudio'],function($,$webaudio){
-	var xhr = $webaudio();
+define(['jquery','html5ecma'],function($,html5ecma){
+	var xhr = html5ecma();
 	return new xhr();
 });

@@ -1,7 +1,7 @@
 require.config({
     paths: {
         jquery: "../bower_components/jquery/dist/jquery",
-        webaudio: "jquery.webaudio",
+        html5ecma: "jquery.html5ecma",
         xhr: "xhr/main"
     },
     shim: {
@@ -12,11 +12,11 @@ require.config({
     		deps:['jquery']
     	},
     	'xhr':{
-    		deps:['jquery','webaudio']
+    		deps:['jquery','html5ecma']
     	}
     }
 });
 
-require(['jquery','webaudio','xhr'],function(){
+require(['jquery','html5ecma','xhr'],function(){
     arguments[2].init();
 });

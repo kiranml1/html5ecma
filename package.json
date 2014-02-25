@@ -1,9 +1,9 @@
 {
-  "name": "jquery-webaudio",
-  "title": "jQuery webaudio",
-  "description": "HTML5 Web-Audio Library",
+  "name": "jquery-html5ecma",
+  "title": "jQuery html5ecma",
+  "description": "HTML5 ECMA Library",
   "author": "A.Kiran Kumar",
-  "homepage": "https://github.com/kiranml1/webaudiojs",
+  "homepage": "https://github.com/kiranml1/html5ecma",
   "version": "3.3.1",
   "devDependencies": {
     "grunt": "~0.4.1",

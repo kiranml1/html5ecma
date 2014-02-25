@@ -1,6 +1,6 @@
 /*
- *  jQuery WebAudio - v0.0.1
- *  HTML5 Web-Audio Library
+ *  jQuery html5ecma - v0.0.1
+ *  HTML5 ECMA Library
  *  http://jqueryboilerplate.com
  *
  *  Made by Kiran Kumar

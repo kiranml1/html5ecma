@@ -1,11 +1,13 @@
 {
-	"name": "jquery-webaudio",
-	"title": "jQuery WebAudio",
-	"description": "HTML5 Web-Audio Library",
+	"name": "jquery-html5ecma",
+	"title": "jQuery html5ecma",
+	"description": "HTML5 ECMA Library",
 	"keywords": [
 		"jquery",
 		"webaudio",
-		"plugins"
+		"plugins",
+		"html5",
+		"ecma"
 	],
 	"version": "0.0.1",
 	"author": {
@@ -25,9 +27,9 @@
 			"type": "MIT"
 		}
 	],
-	"bugs": "https://github.com/jquery-boilerplate/boilerplate/issues",
+	"bugs": "https://github.com/kiranml1/html5ecma/issues",
 	"homepage": "http://jqueryboilerplate.com",
-	"docs": "https://github.com/jquery-boilerplate/boilerplate#readme",
+	"docs": "https://github.com/kiranml1/html5ecma#readme",
 	"download": "https://github.com/jquery-boilerplate/boilerplate/archive/master.zip",
 	"dependencies": {
 		"jquery": ">=1.4"

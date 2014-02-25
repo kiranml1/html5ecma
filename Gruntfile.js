@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 
 		// Import package manifest
-		pkg: grunt.file.readJSON("webaudio.jquery.json"),
+		pkg: grunt.file.readJSON("html5ecma.jquery.json"),
 
 		// Banner definitions
 		meta: {
@@ -20,8 +20,8 @@ module.exports = function(grunt) {
 		// Concat definitions
 		concat: {
 			dist: {
-				src: ["src/jquery.webaudio.js"],
-				dest: "dist/jquery.webaudio.js"
+				src: ["src/jquery.html5ecma.js"],
+				dest: "dist/jquery.html5ecma.js"
 			},
 			options: {
 				banner: "<%= meta.banner %>"
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 
 		// Lint definitions
 		jshint: {
-			files: ["src/jquery.webaudio.js"],
+			files: ["src/jquery.html5ecma.js"],
 			options: {
 				jshintrc: ".jshintrc"
 			}
@@ -39,8 +39,8 @@ module.exports = function(grunt) {
 		// Minify definitions
 		uglify: {
 			my_target: {
-				src: ["dist/jquery.webaudio.js"],
-				dest: "dist/jquery.webaudio.min.js"
+				src: ["dist/jquery.html5ecma.js"],
+				dest: "dist/jquery.html5ecma.min.js"
 			},
 			options: {
 				banner: "<%= meta.banner %>"
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 		coffee: {
 			compile: {
 				files: {
-					"dist/jquery.webaudio.js": "src/jquery.webaudio.coffee"
+					"dist/jquery.html5ecma.js": "src/jquery.html5ecma.coffee"
 				}
 			}
 		},
