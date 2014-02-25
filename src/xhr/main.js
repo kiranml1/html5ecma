@@ -1,6 +1,5 @@
 // XHR Module
-define(['jquery','webaudio'],function(){
-	return function(){
-		console.log('Web Audio Testing');
-	};
+define(['jquery','webaudio'],function($,$webaudio){
+	var xhr = $webaudio();
+	return new xhr();
 });

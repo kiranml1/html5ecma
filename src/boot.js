@@ -18,9 +18,5 @@ require.config({
 });
 
 require(['jquery','webaudio','xhr'],function(){
-	$(function() {
-		$("body").webaudio({
-			propertyName: "a custom value"
-		});
-	});
+    arguments[2].init();
 });
