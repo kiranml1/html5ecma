@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 
 		// Import package manifest
-		pkg: grunt.file.readJSON("boilerplate.jquery.json"),
+		pkg: grunt.file.readJSON("webaudio.jquery.json"),
 
 		// Banner definitions
 		meta: {
@@ -20,8 +20,8 @@ module.exports = function(grunt) {
 		// Concat definitions
 		concat: {
 			dist: {
-				src: ["src/jquery.webaudiojs.js"],
-				dest: "dist/jquery.webaudiojs.js"
+				src: ["src/jquery.webaudio.js"],
+				dest: "dist/jquery.webaudio.js"
 			},
 			options: {
 				banner: "<%= meta.banner %>"
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 
 		// Lint definitions
 		jshint: {
-			files: ["src/jquery.webaudiojs.js"],
+			files: ["src/jquery.webaudio.js"],
 			options: {
 				jshintrc: ".jshintrc"
 			}
@@ -39,8 +39,8 @@ module.exports = function(grunt) {
 		// Minify definitions
 		uglify: {
 			my_target: {
-				src: ["dist/jquery.webaudiojs.js"],
-				dest: "dist/jquery.webaudiojs.min.js"
+				src: ["dist/jquery.webaudio.js"],
+				dest: "dist/jquery.webaudio.min.js"
 			},
 			options: {
 				banner: "<%= meta.banner %>"
@@ -51,10 +51,17 @@ module.exports = function(grunt) {
 		coffee: {
 			compile: {
 				files: {
-					"dist/jquery.webaudiojs.js": "src/jquery.webaudiojs.coffee"
+					"dist/jquery.webaudio.js": "src/jquery.webaudio.coffee"
 				}
 			}
-		}
+		},
+
+		//bower dependencies
+		bowerInstall: {
+	      target: {
+	        src: 'demo/index.html' // point to your HTML file.
+	      }
+	    },
 
 	});
 
@@ -62,6 +69,8 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-jshint");
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 	grunt.loadNpmTasks("grunt-contrib-coffee");
+	grunt.loadNpmTasks('grunt-bower-install');
+	grunt.loadNpmTasks('grunt-contrib-requirejs');
 
 	grunt.registerTask("default", ["jshint", "concat", "uglify"]);
 	grunt.registerTask("travis", ["jshint"]);

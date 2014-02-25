@@ -1,0 +1,35 @@
+{
+	"name": "jquery-webaudio",
+	"title": "jQuery WebAudio",
+	"description": "HTML5 Web-Audio Library",
+	"keywords": [
+		"jquery",
+		"webaudio",
+		"plugins"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "Kiran Kumar",
+		"email": "kirankumar.amruthaluri@gmail.com",
+		"url": "https://github.com/kiranml1"
+	},
+	"maintainers": [
+		{
+			"name": "Kiran Kumar",
+			"email": "kirankumar.amruthaluri@gmail.com",
+			"url": "https://github.com/kiranml1"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT"
+		}
+	],
+	"bugs": "https://github.com/jquery-boilerplate/boilerplate/issues",
+	"homepage": "http://jqueryboilerplate.com",
+	"docs": "https://github.com/jquery-boilerplate/boilerplate#readme",
+	"download": "https://github.com/jquery-boilerplate/boilerplate/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}
