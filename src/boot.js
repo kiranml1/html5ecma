@@ -2,7 +2,8 @@ require.config({
     paths: {
         jquery: "../bower_components/jquery/dist/jquery",
         html5ecma: "jquery.html5ecma",
-        xhr: "xhr/main"
+        xhr: "xhr/main",
+        mathematics: "mathematics/main"
     },
     shim: {
     	'jquery': {
@@ -17,6 +18,6 @@ require.config({
     }
 });
 
-require(['jquery','html5ecma','xhr'],function(){
-    arguments[2].init();
+require(['jquery','html5ecma','xhr','mathematics'],function(){
+    console.log(arguments[3].listPrimes(100));
 });
