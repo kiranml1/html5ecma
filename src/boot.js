@@ -19,5 +19,5 @@ require.config({
 });
 
 require(['jquery','html5ecma','xhr','mathematics'],function(){
-    console.log(arguments[3].sievePrimeList(1000));
+    $('input[type=file]').html5fileupload();
 });
