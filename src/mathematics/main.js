@@ -31,5 +31,12 @@ define([],function () {
 			}
 		};
 	    return primes;
+	// Linear Search Algorithm in a collection/array
+	},'findIndex':function(values,target){
+		for(var i = 0; i < values.length; ++i)
+		{
+			if(values[i] == target) return i; 
+		}
+		return -1;
 	}};
 });
