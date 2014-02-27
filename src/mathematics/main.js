@@ -19,16 +19,17 @@ define([],function () {
 		return primes;
 	//Sieve of Erastosthenes Implementation of Primes
 	},'sievePrimeList':function(max){
-		var sieve = [], i, j, primes = [];
-	    for (i = 2; i <= max; ++i) {
-	        if (!sieve[i]) {
-	            // i has not been flagged -- it is prime
-	            primes.push(i);
-	            for (j = i << 1; j <= max; j += i) {
-	                sieve[j] = true;
-	            }
-	        }
-	    }
+		var sieve = [] ,i, j, primes = [];
+		for (i = 2; i <= max; ++i) {
+			if(!sieve[i])
+			{
+				primes.push(i);
+				for(j = i << 1;j <= max; j += i)
+				{
+					sieve[j] = true;
+				}
+			}
+		};
 	    return primes;
 	}};
 });
