@@ -1,5 +1,5 @@
 // XHR Module
-define(['jquery'],function($){
+define(['jquery','xhrequest'],function($){
 	//File Upload in XHR
 	(function ( $, window, document, undefined ) {
 		//plugin name and defaults
@@ -59,6 +59,10 @@ define(['jquery'],function($){
 							}
 						}
 					});
+				},
+				'xhrRequest':function()
+				{
+
 				},
 				// As of Now Image Type File is Validated
 				typeValidation:function(file){
