@@ -1,0 +1,1 @@
+java -jar selenium/selenium-server-standalone-2.38.0.jar -Dwebdriver.chrome.driver=selenium/chromedriver
