@@ -6,5 +6,7 @@
     "less": "~1.7.0",
     "requirejs": "~2.1.11"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "bootstrap": "~3.1.1"
+  }
 }
