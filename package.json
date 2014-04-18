@@ -1,39 +1,24 @@
 {
-  "name": "jquery-html5ecma",
-  "title": "jQuery html5ecma",
-  "description": "HTML5 ECMA Library",
-  "author": "A.Kiran Kumar",
-  "homepage": "https://github.com/kiranml1/html5ecma",
-  "version": "3.3.1",
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-cli": "~0.1.7",
-    "grunt-contrib-jshint": "~0.4.3",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.2.0",
-    "grunt-contrib-coffee": "~0.7.0",
-    "grunt-contrib-requirejs": "~0.4.1",
-    "grunt-bower-install": "~1.0.0",
-    "grunt-contrib-less": "~0.9.0",
-    "karma-firefox-launcher": "~0.1.3",
-    "karma-chrome-launcher": "~0.1.2",
-    "karma-script-launcher": "~0.1.0",
-    "karma-html2js-preprocessor": "~0.1.0",
-    "karma-jasmine": "~0.1.5",
-    "requirejs": "~2.1.11",
-    "karma-requirejs": "~0.2.1",
-    "karma-coffee-preprocessor": "~0.1.3",
-    "karma-phantomjs-launcher": "~0.1.2",
-    "karma": "~0.10.9",
-    "grunt-karma": "~0.6.2",
-    "grunt-contrib-qunit": "~0.4.0",
-    "mongodb": "~1.3.23",
-    "express": "~3.4.8"
+  "name": "html5-ecma",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "keystone": "~0.2.6",
+    "async": "~0.2.9",
+    "underscore": "~1.5.2",
+    "dotenv": "0.0.3"
+  },
+  "engines": {
+    "node": ">=0.10.22",
+    "npm": ">=1.3.14"
   },
   "scripts": {
-    "test": "grunt travis --verbose"
+    "start": "keystone.js"
   },
-  "dependencies": {
-    "grunt-requirejs": "~0.4.0"
+  "devDependencies": {
+    "grunt-contrib-requirejs": "~0.4.3",
+    "karma": "~0.12.6",
+    "grunt-karma": "~0.8.2",
+    "bower": "~1.3.2"
   }
 }

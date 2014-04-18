@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 
 		// Lint definitions
 		jshint: {
-			files: ["src/jquery.html5ecma.js"],
+			files: ["src/**/*.js","src/!polyfills/*.js","!src/**/*spec.js"],
 			options: {
 				jshintrc: ".jshintrc"
 			}
@@ -63,6 +63,56 @@ module.exports = function(grunt) {
 	      }
 	    },
 
+	    //requirejs configuration
+	    requirejs: {
+		  compile: {
+		    options: {
+				    // Assume your scripts are in a subdirectory under this path.
+				    appDir: '',
+
+				    // By default, all modules are located relative to this path.
+				    baseUrl: 'src/',
+
+				    // Location of the runtime config be read for the build.
+				    mainConfigFile: 'src/boot.js',
+
+				    //The directory path to save the output.
+				    out: 'dist/jquery.html5ecma.js',
+
+				    // If you do not want uglifyjs optimization.
+				    optimize: 'none',
+
+				    optimizeCss: 'none',
+
+				    // Inlines any text! dependencies, to avoid separate requests.
+				    inlineText: true,
+
+				    // Modules to stub out in the optimized file.
+				    // stubModules: ['underscore', 'text', 'tpl'],
+
+				    // Files combined into a build layer will be removed from the output folder.
+				    removeCombined: true,
+
+				    // This option will turn off the auto-preservation.
+				    preserveLicenseComments: false,
+
+				    //List the modules that will be optimized.
+				    name: "boot" // main config file
+				}
+		    }
+		  },
+
+		  // Karma Config file
+		  karma: {
+			  unit: {
+			    configFile: 'karma.conf.js',
+			    runnerPort: 9999,
+			    singleRun: true,
+			    browsers: ['PhantomJS'],
+			    logLevel: 'ERROR'
+			}
+		  }
+
 	});
 
 	grunt.loadNpmTasks("grunt-contrib-concat");
@@ -71,9 +121,9 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-coffee");
 	grunt.loadNpmTasks('grunt-bower-install');
 	grunt.loadNpmTasks('grunt-contrib-requirejs');
-	grunt.loadNpmTasks('grunt-contrib-qunit');
+	grunt.loadNpmTasks('grunt-karma');
 
-	grunt.registerTask("default", ["jshint", "concat", "uglify"]);
+	grunt.registerTask("build", ["requirejs", "uglify","karma","jshint"]);
 	grunt.registerTask("travis", ["jshint"]);
 
 };

@@ -1,0 +1,609 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mo",
+				"verbose_module	AngularJS"
+			],
+			[
+				"vi",
+				"view2"
+			],
+			[
+				"tr",
+				"translate"
+			],
+			[
+				"pr",
+				"primes"
+			],
+			[
+				"s",
+				"sieve"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"j",
+				"jplayer"
+			],
+			[
+				"$ht",
+				"$html"
+			],
+			[
+				"d3",
+				"d3hexbin"
+			],
+			[
+				"jp",
+				"jplayer"
+			],
+			[
+				"jq",
+				"jquery"
+			],
+			[
+				"jke",
+				"jkefex"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ske",
+				"skelpanels"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"re",
+				"resolve"
+			],
+			[
+				"$",
+				"$routeProvider"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"$l",
+				"$locationProvider"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"call",
+				"callbacks"
+			],
+			[
+				"Cal",
+				"Callbacks"
+			],
+			[
+				"ca",
+				"callbacks"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"read",
+				"readmore"
+			],
+			[
+				"$de",
+				"$delegate"
+			],
+			[
+				"pso",
+				"position"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"par",
+				"partial7"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"ma",
+				"mainblock"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"i",
+				"iAttrs"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"an",
+				"angularuicodemirror"
+			],
+			[
+				"code",
+				"codemirror"
+			],
+			[
+				"b",
+				"bower_components"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"t",
+				"Tasks: Open Link"
+			],
+			[
+				"tas",
+				"Tasks: New document"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"gru",
+				"Grunt"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"ADD",
+				"Project: Add Folder"
+			],
+			[
+				"addd",
+				"Project: Add Folder"
+			],
+			[
+				"A",
+				"Project: Add Folder"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html5ecma/bower.json",
+		"/var/www/html5ecma/.gitignore",
+		"/var/www/html5ecma/package.json",
+		"/var/www/html5ecma/build/index.html",
+		"/var/www/html5ecma/Gruntfile.js",
+		"/var/www/html5ecma/tests/xhr.spec.js",
+		"/var/www/html5ecma/karma.conf.js",
+		"/var/www/html5ecma/src/xhr/tests.js",
+		"/var/www/html5ecma/src/boot.js",
+		"/var/www/html5ecma/src/main.js",
+		"/var/www/html5ecma/rdist/innominds/js/fireworks.svg.js",
+		"/var/www/html5ecma/build.js",
+		"/var/www/html5ecma/dist/jquery.req.html5ecma.min.js",
+		"/var/www/html5ecma/bower_components/almond/almond.js",
+		"/var/www/html5ecma/.env",
+		"/var/www/html5ecma/updates/0.0.1-admins.js",
+		"/var/www/html5ecma/server/index.js",
+		"/home/kiran/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/kiran/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/kiran/racerx/build/translations/en_US.strings",
+		"/home/kiran/.config/sublime-text-3/Packages/User/SublimeGrunt.sublime-settings",
+		"/home/kiran/.config/sublime-text-3/Packages/Grunt/SublimeGrunt.sublime-settings",
+		"/home/kiran/racerx/src/boot.js",
+		"/home/kiran/racerx/src/app/app.js",
+		"/home/kiran/racerx/src/app/views/home/home.spec.js",
+		"/home/kiran/racerx/src/icons/home.svg",
+		"/home/kiran/racerx/vendor/jquery/src/var/hasOwn.js",
+		"/home/kiran/racerx/node_modules/grunt/node_modules/hooker/test/hooker_test.js",
+		"/home/kiran/racerx/src/app/views/home/home.tpl.html",
+		"/home/kiran/racerx/src/icons/help.svg",
+		"/home/kiran/racerx/src/jquery.js",
+		"/home/kiran/racerx/build/index.html",
+		"/home/kiran/racerx/src/index/index.html",
+		"/home/kiran/racerx/src/index/__init__.py",
+		"/home/kiran/racerx/src/stub.html",
+		"/var/www/html5ecma/tests/index.html",
+		"/var/www/html5ecma/demo/index.html",
+		"/var/www/html5ecma/node_modules/grunt-bower-install/node_modules/bower-config/node_modules/mout/lang/isNull.js",
+		"/var/www/html5ecma/src/stub.html",
+		"/home/kiran/.config/sublime-text-3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/home/kiran/racerx/Gruntfile.js",
+		"/home/kiran/angular-requirejs-seed/index.html",
+		"/home/kiran/angular-requirejs-seed/app/js/main.js",
+		"/home/kiran/angular-requirejs-seed/app/js/app.js",
+		"/home/kiran/angular-requirejs-seed/app/js/routes.js",
+		"/home/kiran/Desktop/main",
+		"/var/www/backup/translate/ng-boilerplate/src/translations/en_US.strings",
+		"/var/www/backup/translate/ng-boilerplate/src/app/app.js",
+		"/var/www/backup/translate/ng-boilerplate/src/index.html",
+		"/var/www/backup/translate/ng-boilerplate/build/index.html",
+		"/home/kiran/Desktop/fbcontacts.csv",
+		"/var/www/backup/translate/ng-boilerplate/build/translations/dest.js",
+		"/var/www/backup/translate/ng-boilerplate/Gruntfile.js",
+		"/var/www/backup/translate/ng-boilerplate/node_modules/translate/tasks/translate.js",
+		"/var/www/backup/translate/ng-boilerplate/node_modules/translate/Gruntfile.js",
+		"/var/www/backup/translate/ng-boilerplate/tmp/default_options",
+		"/home/kiran/Desktop/index.html",
+		"/var/www/html5ecma/src/innominds/index.html",
+		"/home/kiran/js-fireworks/svg/index.html",
+		"/var/www/html5ecma/src/mathematics/main.js",
+		"/var/www/html5ecma/src/xhr/main.js",
+		"/var/www/html5ecma/src/jquery.html5ecma.js",
+		"/var/www/webaudiojs/package.json",
+		"/var/www/webaudiojs/html5ecma.jquery.json",
+		"/var/www/webaudiojs/Gruntfile.js",
+		"/var/www/webaudiojs/src/jquery.webaudio.js",
+		"/var/www/webaudiojs/src/xhr/main.js",
+		"/var/www/webaudiojs/src/boot.js",
+		"/var/www/webaudiojs/demo/index.html",
+		"/var/www/webaudiojs/demo/styles.less",
+		"/var/www/webaudiojs/dist/jquery.webaudio.js",
+		"/var/www/webaudiojs/tests/index.html",
+		"/var/www/webaudiojs/src/xhr/tests.js",
+		"/var/www/webaudiojs/dist/xhr/main.js",
+		"/var/www/webaudiojs/boilerplate.jquery.json",
+		"/var/www/webaudiojs/src/jquery.webaudiojs.js",
+		"/home/kiran/Desktop/ATT00001.htm",
+		"/home/kiran/streamer.js",
+		"/var/www/fbchat/index.js",
+		"/var/www/fbchat/npm-debug.log",
+		"/var/www/intelmesh/index.html",
+		"/var/www/intelmesh/app/view/Main.js",
+		"/var/www/intelmesh/app/view/Viewport.js",
+		"/var/www/intelmesh/app/view/Login.js",
+		"/var/www/intelmesh/app/Application.js",
+		"/var/www/intelmesh/.sencha/app/sencha.cfg",
+		"/home/kiran/Documents/lyrisone/protractor.conf.js",
+		"/home/kiran/Documents/lyrisone/src/less/variables.less",
+		"/home/kiran/Documents/lyrisone/src/less/main.less",
+		"/var/www/backup/artfriend/index.htm",
+		"/home/kiran/Documents/jasmine-standalone-2.0.0/src/Helloworld.js",
+		"/home/kiran/Documents/jasmine-standalone-2.0.0/spec/Helloworldspec.js",
+		"/home/kiran/Documents/jasmine-standalone-2.0.0/SpecRunner.html",
+		"/home/kiran/Documents/jasmine-standalone-2.0.0/spec/PlayerSpec.js",
+		"/home/kiran/Documents/jasmine-standalone-2.0.0/spec/Helloworld.js",
+		"/home/kiran/Documents/jasmine-standalone-2.0.0/src/Player.js",
+		"/home/kiran/Documents/lyrisone/src/index.html",
+		"/home/kiran/Documents/lyrisone/src/app/views/login/login.js",
+		"/home/kiran/Documents/lyrisone/src/app/app.js",
+		"/home/kiran/Documents/lyrisone/src/app/locale/es_ES.js",
+		"/home/kiran/Documents/lyrisone/src/app/locale/en_US.js",
+		"/home/kiran/Documents/lyrisone/src/app/providers/user_requests_service.js",
+		"/home/kiran/Documents/lyrisone/src/app/testModule.js",
+		"/var/www/lazyload/example/index.html",
+		"/var/www/lazyload/example/app.js",
+		"/home/kiran/Documents/lyrisone/src/app/views/login/login.tpl.html",
+		"/home/kiran/Documents/lyrisone/server/index.js",
+		"/home/kiran/Documents/lyrisone/src/components.json",
+		"/var/www/lazyload/example/testModule.js",
+		"/var/www/lazyload/example/ocLazyLoad.js",
+		"/var/www/nodejs/circ.js",
+		"/var/www/nodejs/index.js",
+		"/var/www/nodejs/http.js",
+		"/home/kiran/ng-boilerplate/hello.js",
+		"/var/www/kiranml1/scripts/controllers/mainctrl.js",
+		"/var/www/kiranml1/scripts/bootstrap.js",
+		"/var/www/artfriend-mohan/css/menu.css",
+		"/var/www/artfriend-mohan/index.htm",
+		"/var/www/artfriend01172014/website/index.htm",
+		"/var/www/kiranml1/index.html",
+		"/var/www/three/one.html",
+		"/var/www/three/index.html",
+		"/var/www/backup/art friend/d3.html",
+		"/var/www/kiranml1/app/index.html",
+		"/var/www/node-js-sample/helloworld/bin/web.js",
+		"/var/www/node-js-sample/helloworld/package.json",
+		"/var/www/kiranml1-nodejitsu/apicalls/package.json",
+		"/var/www/kiranml1/server/web.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/var/www/html5ecma",
+			"/home/kiran/racerx/src",
+			"/home/kiran/lyrisracerx",
+			"/var/www/kiranml1/scripts",
+			"/var/www/kiranml1/app",
+			"/var/www/kiranml1",
+			"/home/kiran/angular-requirejs-lazy-load-seed/app",
+			"/var/www/angular-require-lazy"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bower",
+			"xhr",
+			"html5fileupload",
+			"return",
+			"init",
+			"ignore",
+			"less",
+			"styles",
+			"themes",
+			"home",
+			"/home",
+			"Navigation",
+			"'",
+			"less",
+			"loginDefault",
+			"register",
+			"compile",
+			"$ocLazyLoadProvider",
+			"ocLazyLoadProvider",
+			"ocLazy",
+			"oclazy",
+			"oc",
+			"$ocLazyLoad",
+			"oc",
+			"lazyload",
+			"lyrlyrisLazyLoad",
+			"isLazyLoad",
+			"ocLazyLoad",
+			"experience",
+			"/**",
+			"localhost",
+			"apihost",
+			"raphael",
+			"eve",
+			"opacity",
+			"app/",
+			"css",
+			"images",
+			"length",
+			"bg.png",
+			"//",
+			"cdnify.js",
+			"ng",
+			"lazyOverride",
+			"jkefexjs",
+			"main.css",
+			"svg",
+			"crop",
+			"80",
+			"worker",
+			"ytv",
+			"hover",
+			"read",
+			"transition",
+			"readmore",
+			"lazy-registry",
+			"min-height",
+			"mainblock",
+			"subblock",
+			"nav"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"$lyrisoneLazyLoad",
+			"lyrisLazyLoad",
+			"ocLazyLoad",
+			"",
+			"app/img"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "html5ecma.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"home.spe",
+				"src/app/views/home/home.spec.js"
+			],
+			[
+				"index",
+				"racerx/build/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/racerx/racerx.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
