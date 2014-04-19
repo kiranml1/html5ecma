@@ -14,7 +14,8 @@ require.config({
         //Internal Modules
         html5ecma: "main",
         xhr: "xhr/main",
-        mathematics: "mathematics/main"
+        mathematics: "mathematics/main",
+        test:"test/main"
     },
     //shims
     shim: {
@@ -26,7 +27,10 @@ require.config({
     	},
     	'xhr':{
     		deps:['jquery','html5ecma']
-    	}
+    	},
+        "test":{
+            deps:['jquery']
+        }
     },
 
     // ask Require.js to load these files (all our tests)

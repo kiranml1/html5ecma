@@ -4,7 +4,7 @@ define(["jquery"],function($){
 	(function ( $, window, document, undefined ) {
 		//plugin name and defaults
 		var pluginName = "html5fileupload",
-				defaults = { };
+				defaults = {};
 
 		// The actual plugin constructor
 		function Plugin ( element, options ) {
