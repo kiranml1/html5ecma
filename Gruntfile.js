@@ -56,7 +56,7 @@ module.exports = function(grunt) {
 			}
 		},
 
-		//bower dependencies
+		//	bower dependencies
 		bowerInstall: {
 	      target: {
 	        src: 'demo/index.html' // point to your HTML file.
@@ -125,12 +125,14 @@ module.exports = function(grunt) {
 		  	  }
 		  },
 
+		  // Less
 		  less:{
 		  	main:{
 		  		files:{"less/main.css":"less/main.less"}
 		  	}
 		  },
 
+		  // Livereload
 		  watch:{
 		  	options:{
 				livereload:true
