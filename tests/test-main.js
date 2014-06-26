@@ -16,7 +16,8 @@ require.config({
         xhr: "xhr/main",
         mathematics: "mathematics/main",
         test:"test/main",
-        d3plugins:"d3plugins/main"
+        d3plugins:"d3plugins/main",
+        oops:"oops/main"
     },
     //shims
     shim: {
