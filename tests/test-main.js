@@ -15,7 +15,8 @@ require.config({
         html5ecma: "main",
         xhr: "xhr/main",
         mathematics: "mathematics/main",
-        test:"test/main"
+        test:"test/main",
+        d3plugins:"d3plugins/main"
     },
     //shims
     shim: {
