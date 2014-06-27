@@ -29,5 +29,7 @@ require.config({
 
 //Booting or Intialising
 require(["jquery","html5ecma","xhr","mathematics","test","d3plugins","oops"],function(){
-  console.log(arguments[6].protoFunc());
+  console.log(arguments[5].median([50,20,30,60],function(value,index){
+        return value*10;
+      }));
 });
